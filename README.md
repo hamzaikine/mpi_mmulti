@@ -3,8 +3,11 @@
 The program reads data from file and uses mpi to multiply matrices.
 
  ->The master sends Matrix A row by row to different slaves
+ 
  ->Slaves multipy the row received from master with the broadcasted Matrix B
+ 
  ->Slaves return the sum to the master
+ 
  ->The master gather results in the the resulting matrix
 
 Instructions:
